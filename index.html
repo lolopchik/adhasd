@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кинотеатр MSHP</title>
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/index.js" defer></script>
+    <link rel="icon" href="assets/favicon.png" type="icon/png">
+</head>
+
+<body>
+    <header>
+        <h1>Фильм "МШП: противостояние девелоперов"</h1>
+    </header>
+    <main>
+        <img class="screen" src="assets/screen.svg" alt="screen position">
+        <section class="places session-1">
+            <button id="x1y1" class="place closed">1</button>
+            <button id="x1y2" class=`place`>2</button>
+            <button id="x1y3" class="place">3</button>
+            <button id="x1y4" class="place">4</button>
+            <button id="x2y1" class="place">1</button>
+            <button id="x2y2" class="place">2</button>
+            <button id="x2y3" class="place">3</button>
+            <button id="x2y4" class="place">4</button>
+            <button id="x3y1" class="place">1</button>
+            <button id="x3y2" class="place">2</button>
+            <button id="x3y3" class="place">3</button>
+            <button id="x3y4" class="place">4</button>
+        </section>
+        <section id="places-info" class="p">
+            <p>Выбрано мест: <span id="place-count">0</span></p>
+            <p>Стоимость билетов: <span id="price">0</span></p>
+            <button id="confirm" class="glow-on-hover">Оформить</button>
+            <button id="clear" class="glow-on-hover">очистить всё</button>
+        </section>
+    </main>
+</body>
+
+</html>
